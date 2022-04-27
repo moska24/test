@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header class="header">
+        <div class="container header-container">
+            <div class="header-content d-flex justify-content-between d-flex align-items-center">
+                <!--burger-menu-->
+                <div class="burger">
+                    <div class="burger-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="burger-menu">
+                        <ul>
+                            <li><a href="#">Пункт 1</a></li>
+                            <li><a href="#">Пункт 2</a></li>
+                            <li><a href="#">Пункт 3</a></li>
+                            <li><a href="#">Пункт 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--burger-menu-end-->
+                <nav class="nav d-flex justify-content-between align-items-center">
+                    <ul class="menu d-flex justify-content-between align-items-center">
+                        <li class="menu-item"><a class="menu-link" href="#">Пункт 1</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#">Пункт 2</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#">Пункт 3</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#">Пункт 4</a></li>
+                    </ul>
+                </nav>
+                <div class="logo">
+                    <a class="logo-link" href=""><img src="./img/logo.svg" alt=""></a> 
+                </div>
+                <div class=phone>
+                    <a class="phone-number" href="tel:88005553535">8 800 555 35 35</a>
+                </div>
+                <img class="log-in" src="./img/ic_profile.svg" alt="ic_profile">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!--SECTION 1 - HERO-->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content d-flex justify-content-between align-items-center">
+                    <div class="hero-text">
+                        <h1>Большой главный</br> заголовок</h1>
+                        <p>Разнообразный и богатый опыт начало повседневной работы по формированию позиции позволяет выполнять важные задания.</p>
+                        <div class="hero-form">
+                            <p>Регион</p>
+                            <input class="region" type="text" placeholder="Республика Карелия">
+                            <span>Выбор:</span>
+                            <div class="region-choose d-flex justify-content-between align-items-start">
+                                <div class="checkboxes d-flex flex-column">
+                                    <label class="checkbox-container d-flex justify-content-between align-items-center">
+                                        <input class="checkbox-box" type="checkbox">
+                                        <div class="checkbox-mark"></div>
+                                        <div class="checkbox-content">
+                                            <div class="checkbox-text">Выбор 1</div>
+                                        </div>
+                                    </label>
+        
+                                    <label class="checkbox-container d-flex justify-content-between align-items-center">
+                                        <input class="checkbox-box" type="checkbox" checked>
+                                        <div class="checkbox-mark"></div>
+                                        <div class="checkbox-content">
+                                            <div class="checkbox-text">Выбор 2</div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="switch d-flex justify-content-between align-items-center">
+                                    <div class="switch-button">
+                                        <div class="switch-btn"></div>
+                                    </div>
+                                    <div class="switch-content">
+                                        <div class="switch-text">Выбор 3</div>
+                                    </div>
+                                </div>
+                                <div class="button d-flex flex-column">
+                                    <button class="btn">Поиск</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="hero-img d-flex justify-content-center align-items-center">
+                        <img src="./img/check.svg" alt="check">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SECTION 2-->
+        <section class="section_2 d-flex justify-content-between align-items-center">
+            <div class="container container-section_2">
+                <div class="section_2-content d-flex justify-content-between align-items-center">
+                    <div class="section_2-left">
+                        <h2>Заголовок</h2>
+                        <hr width="62px">
+                        <img src="./img/ic_searchForm.svg" alt="">
+                    </div>
+                    <div class="section_2-right">
+                        <h3>Пункты</h3>
+                        <ul>
+                            <li><img src="./img/check-simple.svg" alt="check">Пункт 1</li>
+                            <li><img src="./img/check-simple.svg" alt="check">Пункт 2</li>
+                            <li><img src="./img/check-simple.svg" alt="check">Пункт 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SECTION 3-->
+        <section class="section_3">
+            <div class="container container-section_3">
+                <h1>Заголовок</h1>
+                <hr>
+                <div class="cards d-flex align-items-center justify-content-between">
+                    <div class="card">
+                        <div class="card-header d-flex align-items-center">
+                            <div class="card-img d-flex align-items-center justify-content-center">
+                                <img src="./img/ic_geo.svg" alt="geo">
+                            </div>
+                            <div class="step d-flex align-items-center">
+                                <p>1. шаг</p>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            Разнообразный и богатый опыт начало повседневной работы по формированию.
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header d-flex align-items-center">
+                            <div class="card-img d-flex align-items-center justify-content-center">
+                                <img src="./img/ic_form.svg" alt="geo">
+                            </div>
+                            <div class="step d-flex align-items-center">
+                                <p>2. шаг</p>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            Разнообразный и богатый опыт начало повседневной работы по формированию.
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header d-flex align-items-center">
+                            <div class="card-img d-flex align-items-center justify-content-center">
+                                <img src="./img/check.svg" alt="geo">
+                            </div>
+                            <div class="step d-flex align-items-center">
+                                <p>3. шаг</p>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            Разнообразный и богатый опыт начало повседневной работы по формированию.
+                        </div>
+                    </div>
+
+                </div>
+                <p class="section_3-text">Разнообразный и богатый опыт начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке дальнейших направлений развития. С другой стороны реализация намеченных плановых заданий играет важную роль в формировании систем массового участия. С другой стороны консультация с широким активом играет важную роль в формировании направлений прогрессивного развития. </p>
+            </div>
+        </section>
+
+        <!--SECTION 4 - REVIEWS-->
+        <section class="section_4">
+                <div class="section_4-content">
+                    <div class="container container-section_4">
+                        <h1>Отзывы</h1>
+                        <hr>
+                    </div>
+                    <div class="reviews">
+                        <div class="review d-flex flex-column align-items-center">
+                            <div class="review-header d-flex justify-content-between align-items-center">
+                                <div class="review-img">
+                                    <img src="./img/photo1.jpg" alt="photo1">
+                                </div>
+                                <div class="review-topic">
+                                    Просто дали начать снова жить!
+                                </div>
+                            </div>
+                            <div class="review-info d-flex flex-column justify-content-between">
+                                <div class="review-text">
+                                    Мне порекомендовала обратиться в компанию коллега еще год назад. 
+                                    Сначала даже не поверила, что избавиться от долгов можно так легко. 
+                                    Решила даже позвонить в другие конторы, однако самым выгодным и адекватным 
+                                    вариантом стал тот, который посоветовала знакомая. Меня порадовала, 
+                                    что компания сама собирает пакет документов, оформляет все за считанные дни. 
+                                    Фирма быстро избавила меня от долгов, и я смогла спокойно жить, работать 
+                                    без звонков коллекторов и нервотрепки.
+                                </div>
+                                <div class="review-name">
+                                    Марина Ивановна
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review d-flex flex-column align-items-center">
+                            <div class="review-header d-flex justify-content-between align-items-center">
+                                <div class="review-img">
+                                    <img src="./img/photo2.jpg" alt="photo1">
+                                </div>
+                                <div class="review-topic">
+                                    Всем советую! 
+                                </div>
+                            </div>
+                            <div class="review-info d-flex flex-column justify-content-between">
+                                <div class="review-text">
+                                    Спасибо большое компании по списанию долгов. Процедура прошла законно, 
+                                    прозрачно, легально. В свое время, я брал кредит на собственное дело, 
+                                    но бизнес не пошел и не поехал, а вот долги стали копиться моментально. 
+                                    Естественно, что коллекторы и проблемы не заставили себя ждать. Поэтому и 
+                                    решил обратиться за банкротством, и затем был приятно удивлен, что мне 
+                                    быстро помогли с долгами.
+                                </div>
+                                <div class="review-name">
+                                    Сергей Иванов
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review d-flex flex-column align-items-center">
+                            <div class="review-header d-flex justify-content-between align-items-center">
+                                <div class="review-img">
+                                    <img src="./img/photo3.jpg" alt="photo1">
+                                </div>
+                                <div class="review-topic">
+                                    Проверенная фирма.
+                                </div>
+                            </div>
+                            <div class="review-info d-flex flex-column justify-content-between">
+                                <div class="review-text">
+                                    Отвечаю за то, что говорю. Я сам успешно списал долги, а затем посоветовал 
+                                    знакомым, попавшим в тяжелую жизненную ситуацию, тоже обратиться в эту же компанию. 
+                                    Помогли и мне, и моим друзьям. Естественно, как камень с плеч!
+                                </div>
+                                <div class="review-name">
+                                    Иван Иванов
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review d-flex flex-column align-items-center">
+                            <div class="review-header d-flex justify-content-between align-items-center">
+                                <div class="review-img">
+                                    <img src="./img/photo1.jpg" alt="photo1">
+                                </div>
+                                <div class="review-topic">
+                                    Просто дали начать снова жить!
+                                </div>
+                            </div>
+                            <div class="review-info d-flex flex-column justify-content-between">
+                                <div class="review-text">
+                                    Мне порекомендовала обратиться в компанию коллега еще год назад. 
+                                    Сначала даже не поверила, что избавиться от долгов можно так легко. 
+                                    Решила даже позвонить в другие конторы, однако самым выгодным и адекватным 
+                                    вариантом стал тот, который посоветовала знакомая. Меня порадовала, 
+                                    что компания сама собирает пакет документов, оформляет все за считанные дни. 
+                                    Фирма быстро избавила меня от долгов, и я смогла спокойно жить, работать 
+                                    без звонков коллекторов и нервотрепки.
+                                </div>
+                                <div class="review-name">
+                                    Марина Ивановна
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review d-flex flex-column align-items-center">
+                            <div class="review-header d-flex justify-content-between align-items-center">
+                                <div class="review-img">
+                                    <img src="./img/photo2.jpg" alt="photo1">
+                                </div>
+                                <div class="review-topic">
+                                    Всем советую! 
+                                </div>
+                            </div>
+                            <div class="review-info d-flex flex-column justify-content-between">
+                                <div class="review-text">
+                                    Спасибо большое компании по списанию долгов. Процедура прошла законно, 
+                                    прозрачно, легально. В свое время, я брал кредит на собственное дело, 
+                                    но бизнес не пошел и не поехал, а вот долги стали копиться моментально. 
+                                    Естественно, что коллекторы и проблемы не заставили себя ждать. Поэтому и 
+                                    решил обратиться за банкротством, и затем был приятно удивлен, что мне 
+                                    быстро помогли с долгами.
+                                </div>
+                                <div class="review-name">
+                                    Сергей Иванов
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review d-flex flex-column align-items-center">
+                            <div class="review-header d-flex justify-content-between align-items-center">
+                                <div class="review-img">
+                                    <img src="./img/photo3.jpg" alt="photo1">
+                                </div>
+                                <div class="review-topic">
+                                    Проверенная фирма.
+                                </div>
+                            </div>
+                            <div class="review-info d-flex flex-column justify-content-between">
+                                <div class="review-text">
+                                    Отвечаю за то, что говорю. Я сам успешно списал долги, а затем посоветовал 
+                                    знакомым, попавшим в тяжелую жизненную ситуацию, тоже обратиться в эту же компанию. 
+                                    Помогли и мне, и моим друзьям. Естественно, как камень с плеч!
+                                </div>
+                                <div class="review-name">
+                                    Иван Иванов
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review d-flex flex-column align-items-center">
+                            <div class="review-header d-flex justify-content-between align-items-center">
+                                <div class="review-img">
+                                    <img src="./img/photo1.jpg" alt="photo1">
+                                </div>
+                                <div class="review-topic">
+                                    Просто дали начать снова жить!
+                                </div>
+                            </div>
+                            <div class="review-info d-flex flex-column justify-content-between">
+                                <div class="review-text">
+                                    Мне порекомендовала обратиться в компанию коллега еще год назад. 
+                                    Сначала даже не поверила, что избавиться от долгов можно так легко. 
+                                    Решила даже позвонить в другие конторы, однако самым выгодным и адекватным 
+                                    вариантом стал тот, который посоветовала знакомая. Меня порадовала, 
+                                    что компания сама собирает пакет документов, оформляет все за считанные дни. 
+                                    Фирма быстро избавила меня от долгов, и я смогла спокойно жить, работать 
+                                    без звонков коллекторов и нервотрепки.
+                                </div>
+                                <div class="review-name">
+                                    Марина Ивановна
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review d-flex flex-column align-items-center">
+                            <div class="review-header d-flex justify-content-between align-items-center">
+                                <div class="review-img">
+                                    <img src="./img/photo2.jpg" alt="photo1">
+                                </div>
+                                <div class="review-topic">
+                                    Всем советую! 
+                                </div>
+                            </div>
+                            <div class="review-info d-flex flex-column justify-content-between">
+                                <div class="review-text">
+                                    Спасибо большое компании по списанию долгов. Процедура прошла законно, 
+                                    прозрачно, легально. В свое время, я брал кредит на собственное дело, 
+                                    но бизнес не пошел и не поехал, а вот долги стали копиться моментально. 
+                                    Естественно, что коллекторы и проблемы не заставили себя ждать. Поэтому и 
+                                    решил обратиться за банкротством, и затем был приятно удивлен, что мне 
+                                    быстро помогли с долгами.
+                                </div>
+                                <div class="review-name">
+                                    Сергей Иванов
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review d-flex flex-column align-items-center">
+                            <div class="review-header d-flex justify-content-between align-items-center">
+                                <div class="review-img">
+                                    <img src="./img/photo3.jpg" alt="photo1">
+                                </div>
+                                <div class="review-topic">
+                                    Проверенная фирма.
+                                </div>
+                            </div>
+                            <div class="review-info d-flex flex-column justify-content-between">
+                                <div class="review-text">
+                                    Отвечаю за то, что говорю. Я сам успешно списал долги, а затем посоветовал 
+                                    знакомым, попавшим в тяжелую жизненную ситуацию, тоже обратиться в эту же компанию. 
+                                    Помогли и мне, и моим друзьям. Естественно, как камень с плеч!
+                                </div>
+                                <div class="review-name">
+                                    Иван Иванов
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-content d-flex align-items-center justify-content-between">
+                <div class="contacts d-flex flex-column justify-content-between">
+                    <a href="mail@mail.com" class="contacts-email">mail@mail.com</a>
+                    <div class="contacts-phone d-flex align-items-center">
+                        <img src="./img/ic_phone.svg" alt="phone">
+                        <a class="phone-number" href="tel:88005553535">8 800 555 35 35</a>
+                    </div>
+                    <div class="contacs-social d-flex justify-content-between align-items-center">
+                        <a href="#" class="social-link">
+                            <img src="./img/in.svg" alt="in">
+                        </a>
+
+                        <a href="#" class="social-link">
+                            <img src="./img/vk.svg" alt="vk">
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="./img/fb.svg" alt="fb">
+                        </a>
+                    </div>
+                    <p class="year">&copy; 2021</p>
+                </div>
+                <div class="services">
+                    <h1 class="list-topic">Услуги</h1>
+                    <ul class="list-items">
+                        <li class="list-item">
+                            <a href="#" class="list-item_link">услуга 1</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-item_link">услуга 2</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-item_link">услуга 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="others">
+                    <h1 class="list-topic">Другое</h1>
+                    <ul class="list-items">
+                        <li class="list-item">
+                            <a href="#" class="list-item_link">услуга 1</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-item_link">услуга 2</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-item_link">услуга 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-logo">
+                    <a class="logo-link" href=""><img src="./img/logo.svg" alt=""></a> 
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="slick.min.js"></script>
+<script src="script.js"></script>
+</body>
